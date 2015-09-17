@@ -68,7 +68,7 @@
   character in that column, and similarly for the number of lines and the
   factor used to convert the line number to the corresponding y value.
 
-  Optionally, you may also draw a boarder, where the top and bottom of each
+  Optionally, you may also draw a border, where the top and bottom of each
   column is a `"-"` (or something), and the first and last character of each
   line is a `"|"` (or something).
 
