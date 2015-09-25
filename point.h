@@ -1,8 +1,21 @@
-#ifndef POINT_H
-#define POINT_H
-// ----------------------------------------------------------------------------
+#ifndef POINTS_H
+#define POINTS_H
+//contains all the function prototypes
 
-// ... everything besides the copyright information and file description
+class points {
+private:
+	float x;
+	float y;
+	
+public:
+	points(float x = 0, float y = 0);//constructor with argument parameters
+	float getX() const { 
+		return x; 
+	}
+	float getY() const {
+		return y;
+	}
 
-// ----------------------------------------------------------------------------
-#endif  // POINT_H
+	float distance (const points & a) const;
+};
+#endif
